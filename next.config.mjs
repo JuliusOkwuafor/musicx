@@ -20,8 +20,8 @@ const nextConfig = {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
-  },
-  output: 'export' // ✅ This is the key line you needed
+  }
+  
 }
 
 mergeConfig(nextConfig, userConfig)
